@@ -1,9 +1,10 @@
 .include "m32def.inc"
 .org 00
-ldi r16,'4'
-ldi r17,'7'
+ldi r16,0x29
+mov r17,r16
 andi r16,0x0f
-swap r16
+ori r16,0x30
+swap r17
 andi r17,0x0f
-or r16,r17
+ori r17,0x30
 end: jmp end

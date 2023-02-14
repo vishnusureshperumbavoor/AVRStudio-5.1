@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>5.1</ProjectVersion>
     <ToolchainName>com.Atmel.AVRAssembler</ToolchainName>
-    <ProjectGuid>{a509978c-6649-4a99-afa9-84dd22dbd395}</ProjectGuid>
+    <ProjectGuid>{187a810d-dae5-42f3-8311-a91d63255159}</ProjectGuid>
     <avrdeviceseries>none</avrdeviceseries>
     <avrdevice>ATmega32</avrdevice>
     <OutputFileName>$(MSBuildProjectName)</OutputFileName>
@@ -17,19 +17,6 @@
     <EntryFile>$(MSBuildProjectDirectory)\AVRAssembler1.asm</EntryFile>
     <ToolchainFlavour>Native</ToolchainFlavour>
     <AsfVersion>2.11.1</AsfVersion>
-    <avrtoolinterface />
-    <avrtool>com.atmel.avrdbg.tool.simulator</avrtool>
-    <com_atmel_avrdbg_tool_simulator>
-      <ToolType xmlns="">com.atmel.avrdbg.tool.simulator</ToolType>
-      <ToolName xmlns="">AVR Simulator</ToolName>
-      <ToolNumber xmlns="">
-      </ToolNumber>
-      <Channel xmlns="">
-        <host>127.0.0.1</host>
-        <port>64459</port>
-        <ssl>False</ssl>
-      </Channel>
-    </com_atmel_avrdbg_tool_simulator>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <ToolchainSettings>

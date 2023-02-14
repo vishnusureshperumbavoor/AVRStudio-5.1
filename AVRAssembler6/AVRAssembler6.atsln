@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # AvrStudio Solution File, Format Version 11.00
-Project("{18226A42-8477-4023-8AD2-40C49DA407C9}") = "AVRAssembler4", "AVRAssembler4\AVRAssembler4.asmproj", "{F4F6171B-E0AE-4432-B50F-25F46F5570CC}"
+Project("{18226A42-8477-4023-8AD2-40C49DA407C9}") = "AVRAssembler6", "AVRAssembler6\AVRAssembler6.asmproj", "{D7428287-1C32-41DF-B16F-A12F97DDF0E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +9,10 @@ Global
 		Release|AVR = Release|AVR
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F4F6171B-E0AE-4432-B50F-25F46F5570CC}.Debug|AVR.ActiveCfg = Debug|AVR
-		{F4F6171B-E0AE-4432-B50F-25F46F5570CC}.Debug|AVR.Build.0 = Debug|AVR
-		{F4F6171B-E0AE-4432-B50F-25F46F5570CC}.Release|AVR.ActiveCfg = Release|AVR
-		{F4F6171B-E0AE-4432-B50F-25F46F5570CC}.Release|AVR.Build.0 = Release|AVR
+		{D7428287-1C32-41DF-B16F-A12F97DDF0E3}.Debug|AVR.ActiveCfg = Debug|AVR
+		{D7428287-1C32-41DF-B16F-A12F97DDF0E3}.Debug|AVR.Build.0 = Debug|AVR
+		{D7428287-1C32-41DF-B16F-A12F97DDF0E3}.Release|AVR.ActiveCfg = Release|AVR
+		{D7428287-1C32-41DF-B16F-A12F97DDF0E3}.Release|AVR.Build.0 = Release|AVR
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

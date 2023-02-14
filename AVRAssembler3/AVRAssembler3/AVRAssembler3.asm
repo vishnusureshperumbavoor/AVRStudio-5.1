@@ -1,10 +1,14 @@
-.include "M32DEF.INC"
+.include "m32def.inc"
 .org 00
-LDI R16,0x25
-LDI R17,0x34
-LDI R18,0B00110001
-ADD R16,R17
-ADD R16,R18
-LDI R17,11
-ADD R16,R17
-END: JMP END
+ldi r16,0x34
+ldi r17,0
+ldi r18,0
+ldi r19,8
+d1: ror r16
+brcc l1
+inc r17
+rjmp l2
+l1: inc r18
+l2: dec r19
+brne d1
+end: jmp end

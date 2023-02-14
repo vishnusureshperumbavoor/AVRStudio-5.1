@@ -1,10 +1,10 @@
-.INCLUDE "M32DEF.INC"
-.ORG 00
-LDI R16,0x25
-LDI R17,0x34
-LDI R18,0B00110001
-ADD R16,R17
-ADD R16,R18
-LDI R17,11
-ADD R16,R17
-END: JMP END
+.include "M32DEF.INC"
+.org 00
+ldi r16,0x74
+ldi r17,0x23
+ldi r19,0x54
+add r16,r17
+sub r19,r17
+ldi r18,0x02
+mul r18,r17
+end: jmp end
